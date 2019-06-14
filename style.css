@@ -1,0 +1,21 @@
+/*!
+* Theme Name:       Exhale - Finkom
+* Description:      A child theme for the Exhale theme by Justin Tadlock.
+* Version:          1.0
+* Author:           Steffen Bang Nielsen
+* Author URI:       https://retrofitter.dk
+* Tags:             custom-colors, custom-menu, featured-images, one-column, theme-options, threaded-comments, translation-ready
+* Template:         exhale
+* Text Domain:      exhale-finkom
+* Domain Path:      /public/lang
+* Requires PHP:     5.6
+* Release Asset:    true
+* License:          GNU General Public License v3.0 or later
+* License URI:      https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* ============================================================================
+= This file is not loaded by default. To load it, uncomment the code in the
+= `functions.php` file.
+============================================================================ */
+
