@@ -6,9 +6,6 @@
  *
  */
 
-// Uncomment the below to load the theme's `style.css` file.
-
-
-// add_action( 'wp_enqueue_scripts', function() {
-// 	wp_enqueue_style( 'exhale-via', get_stylesheet_uri() );
-// }, 15 );
+add_action( 'wp_enqueue_scripts', function() {
+	wp_enqueue_style( 'exhale-finkom', get_template_directory_uri() . '/assets/css/theme.css' );
+}, 15 );
