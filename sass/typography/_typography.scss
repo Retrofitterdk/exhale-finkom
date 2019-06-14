@@ -1,0 +1,40 @@
+.app-footer {
+    padding: 3rem;
+    &__credit {
+        text-align: unset;
+    }
+    .site-info {
+        p {
+            font-family: var(--font-family-secondary);
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+    }
+    .menu {
+        &__items {
+            text-align: unset;
+        }
+        li:first-of-type {
+            .menu__link {
+                margin-left: 0%;
+            }
+        }
+        li:last-of-type {
+            .menu__link {
+                margin-right: 0%;
+            }
+        }
+    }
+    @media (min-width: $larger-than-tablet) {
+        .menu, .site-info {
+           width: 50%;
+           display: inline-block;
+        }
+        .menu {
+            float: right;
+            &__items {
+                text-align: right;
+            }
+        }
+    }
+}

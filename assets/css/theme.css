@@ -29,6 +29,29 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+.app-footer {
+  padding: 3rem; }
+  .app-footer__credit {
+    text-align: unset; }
+  .app-footer .site-info p {
+    font-family: var(--font-family-secondary);
+    font-size: 16px;
+    margin-bottom: 0; }
+  .app-footer .menu__items {
+    text-align: unset; }
+  .app-footer .menu li:first-of-type .menu__link {
+    margin-left: 0%; }
+  .app-footer .menu li:last-of-type .menu__link {
+    margin-right: 0%; }
+  @media (min-width: 960px) {
+    .app-footer .menu, .app-footer .site-info {
+      width: 50%;
+      display: inline-block; }
+    .app-footer .menu {
+      float: right; }
+      .app-footer .menu__items {
+        text-align: right; } }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
