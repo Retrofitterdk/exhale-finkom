@@ -52,6 +52,19 @@
       .app-footer .menu__items {
         text-align: right; } }
 
+.app-header__title, .app-header__description {
+  background: var(--color-header-background);
+  border: 0; }
+
+.logoright .app-header__branding {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+          order: 2;
+  margin-left: auto;
+  -webkit-box-flex: unset;
+  -webkit-flex-grow: unset;
+          flex-grow: unset; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
