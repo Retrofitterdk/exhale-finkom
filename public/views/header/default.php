@@ -12,6 +12,7 @@
 <div class="app">
 
 	<header class="app-header <?php echo get_theme_mod( 'app_header_alignment' ); ?>">
+		<?php the_custom_header_markup() ?>
 
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'exhale' ) ?></a>
 
@@ -20,9 +21,7 @@
 			<?php Hybrid\Site\display_title() ?>
 			<?php Hybrid\Site\display_description() ?>
 		</div>
-
-		<?php the_custom_header_markup() ?>
-
-		<?php Hybrid\View\display( 'nav/menu', 'primary', [ 'location' => 'primary' ] ) ?>
-
+		<div class="app-header__navigation">
+			<?php Hybrid\View\display( 'nav/menu', 'primary', [ 'location' => 'primary' ] ) ?>
+		</div>
 	</header>
