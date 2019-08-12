@@ -52,9 +52,11 @@
       .app-footer .menu__items {
         text-align: right; } }
 
-.app-header__title, .app-header__description {
-  background: var(--color-header-background);
-  border: 0; }
+.app-header {
+  padding: 0 3rem; }
+  .app-header__title, .app-header__description {
+    background: var(--color-header-background);
+    border: 0; }
 
 .logoright .app-header__branding {
   -webkit-box-ordinal-group: 3;

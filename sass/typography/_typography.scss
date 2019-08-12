@@ -38,3 +38,22 @@
         }
     }
 }
+
+.app-header {
+    padding: 0 3rem;
+    &__title, &__description {
+        background: var(--color-header-background);
+        border: 0;
+    }
+}
+
+.logoright {
+    .app-header {
+        &__branding {
+            order: 2;
+            margin-left: auto;
+            flex-grow: unset;
+        }
+    }
+
+}
